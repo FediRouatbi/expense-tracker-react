@@ -1,5 +1,5 @@
 import { ACTIONS } from "./GlobalState";
-export default AppReducer = (state, action) => {
+export const AppReducer = function (state, action) {
   switch (action.type) {
     case ACTIONS.ADD_TRANSACTION:
       return {

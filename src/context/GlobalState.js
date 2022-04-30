@@ -1,5 +1,5 @@
 import React, { createContext, useReducer, useContext } from "react";
-import AppReducer from "./AppReducer";
+import { AppReducer } from "./AppReducer";
 export const ACTIONS = {
   ADD_TRANSACTION: "add_transaction",
   DEL_TRANSACTION: "del_transaction",
